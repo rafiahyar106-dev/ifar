@@ -1,0 +1,25 @@
+.allbody{
+    background-image: url(https://i.pinimg.com/736x/3f/a4/16/3fa41654d7602b9a5d1865ad66bf14b0.jpg);
+}
+.hero-section {
+  background: url('https://i.pinimg.com/736x/7e/8c/40/7e8c40489d33f56298d6484ac8b360de.jpg') center/cover no-repeat;
+  min-height: 400px;
+}
+
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.buy-btn {
+  transition: background 0.3s ease;
+}
+
+.buy-btn:hover {
+  background: #c0a062;
+  color: #fff;
+}
